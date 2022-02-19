@@ -3,8 +3,8 @@
 		<TargetFramework>net5.0</TargetFramework>
 		<LangVersion>latest</LangVersion> 
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-	</PropertyGroup>
+  </PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Avalonia" Version="0.10.0" />
+	  <PackageReference Include="Eto.Forms" Version="2.5.11" />
 	</ItemGroup>
 </Project>
