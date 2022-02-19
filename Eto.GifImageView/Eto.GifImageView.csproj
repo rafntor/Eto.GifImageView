@@ -18,6 +18,10 @@
   </PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Eto.Forms" Version="2.5.11" />
+	  <PackageReference Include="GitVersion.MsBuild" Version="5.8.2">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
 	  <PackageReference Include="System.Memory" Version="4.5.4" />
 	</ItemGroup>
   <ItemGroup>
