@@ -1,5 +1,5 @@
 
-namespace Eto.SkiaDraw.Demo
+namespace Eto.GifImageView.Demo
 {
 	using Eto.Drawing;
 	using Eto.Forms;

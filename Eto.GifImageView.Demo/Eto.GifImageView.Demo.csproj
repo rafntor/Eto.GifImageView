@@ -11,6 +11,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\c-loader.gif" />
+    <None Remove="Images\earth.gif" />
+    <None Remove="Images\evitare-loader.gif" />
+    <None Remove="Images\laundry.gif" />
+    <None Remove="Images\loader.gif" />
+    <None Remove="Images\newton-cradle.gif" />
+    <None Remove="Images\rainbow.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\c-loader.gif" />
+    <EmbeddedResource Include="Images\earth.gif" />
+    <EmbeddedResource Include="Images\evitare-loader.gif" />
+    <EmbeddedResource Include="Images\laundry.gif" />
+    <EmbeddedResource Include="Images\loader.gif" />
+    <EmbeddedResource Include="Images\newton-cradle.gif" />
+    <EmbeddedResource Include="Images\rainbow.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="SonarAnalyzer.CSharp" Version="8.35.0.42613">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>CFBundleName</key>
-    <string>Eto.SkiaDraw.Demo</string>
+    <string>Eto.GiImageView.Demo</string>
     <key>CFBundleIdentifier</key>
-    <string>com.example.Eto.SkiaDraw.Demo</string>
+    <string>com.example.Eto.GiImageView.Demo</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0</string>
     <key>LSMinimumSystemVersion</key>
