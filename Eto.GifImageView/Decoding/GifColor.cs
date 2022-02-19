@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 
-namespace AvaloniaGif
+namespace Eto.GifImageView
 {
     [StructLayout(LayoutKind.Explicit)]
     public readonly struct GifColor

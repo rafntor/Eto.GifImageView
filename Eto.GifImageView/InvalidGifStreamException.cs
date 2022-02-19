@@ -1,7 +1,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace AvaloniaGif
+namespace Eto.GifImageView
 {
     [Serializable]
     internal class InvalidGifStreamException : Exception

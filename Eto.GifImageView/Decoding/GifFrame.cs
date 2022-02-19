@@ -1,6 +1,6 @@
 using System;
 
-namespace AvaloniaGif.Decoding
+namespace Eto.GifImageView.Decoding
 {
     public class GifFrame
     {

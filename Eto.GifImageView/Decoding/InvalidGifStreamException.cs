@@ -4,7 +4,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace AvaloniaGif.Decoding
+namespace Eto.GifImageView.Decoding
 {
     [Serializable]
     public class InvalidGifStreamException : Exception

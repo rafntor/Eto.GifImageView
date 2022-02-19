@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AvaloniaGif.Decoding
+namespace Eto.GifImageView.Decoding
 {
     public class GifRepeatBehavior
     {

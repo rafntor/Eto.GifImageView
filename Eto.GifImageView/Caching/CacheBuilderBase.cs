@@ -3,7 +3,7 @@
 
 using System;
 
-namespace AvaloniaGif.Caching
+namespace Eto.GifImageView.Caching
 {
     /// <summary>
     /// Basic builder methods common to all caches.

@@ -1,4 +1,4 @@
-namespace AvaloniaGif.Decoding
+namespace Eto.GifImageView.Decoding
 {
     public readonly struct GifRect
     {

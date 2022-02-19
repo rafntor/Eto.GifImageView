@@ -1,4 +1,4 @@
-﻿namespace AvaloniaGif
+﻿namespace Eto.GifImageView
 {
     internal enum BgWorkerState
     {
