@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.GifImageView", "Eto.GifImageView\Eto.GifImageView.csproj", "{A48F96C7-657E-41EE-A1EF-06630EC734B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.GifImageView.Demo", "Eto.GifImageView.Demo\Eto.GifImageView.Demo.csproj", "{56390FED-110A-4970-B113-171D5DB30C44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5B0B7F8A-CC0F-4B92-96BC-26459A6006F0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48F96C7-657E-41EE-A1EF-06630EC734B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48F96C7-657E-41EE-A1EF-06630EC734B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48F96C7-657E-41EE-A1EF-06630EC734B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48F96C7-657E-41EE-A1EF-06630EC734B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56390FED-110A-4970-B113-171D5DB30C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56390FED-110A-4970-B113-171D5DB30C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56390FED-110A-4970-B113-171D5DB30C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56390FED-110A-4970-B113-171D5DB30C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {998C804B-B9FE-4157-AED2-71C8B6B73052}
+	EndGlobalSection
+EndGlobal
