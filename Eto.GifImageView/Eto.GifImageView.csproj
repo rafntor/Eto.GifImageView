@@ -1,10 +1,37 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>net5.0</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>latest</LangVersion> 
-		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks> 
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild> 
+		<PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Description>Provides an Eto.Forms view control that GifImageView control that internally uses pure C# GIF decoder and animation.</Description>
+    <PackageProjectUrl>https://github.com/rafntor/Eto.GifImageView</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/rafntor/Eto.GifImageView</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Eto;Eto.Forms;GIF</PackageTags>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright © 2019 Jumar Macato, 2022 Tore Fuglestad</Copyright>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <Authors>Tore Fuglestad</Authors>
   </PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Eto.Forms" Version="2.5.11" />
+	  <PackageReference Include="System.Memory" Version="4.5.4" />
 	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\Animation.gif">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 </Project>

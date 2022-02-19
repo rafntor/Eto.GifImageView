@@ -1,4 +1,4 @@
-<Project Sdk="Eto.Forms/2.6.0">
+﻿<Project Sdk="Eto.Forms/2.6.0">
 
   <!--
     Set the BuildPlatform property to the Eto platform you wish to build for.
@@ -28,13 +28,6 @@
     <EmbeddedResource Include="Images\loader.gif" />
     <EmbeddedResource Include="Images\newton-cradle.gif" />
     <EmbeddedResource Include="Images\rainbow.gif" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="8.35.0.42613">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
