@@ -30,13 +30,13 @@ jobs:
         tar --directory=Eto.GifImageView.Demo/bin/Gtk/Debug/net6.0/linux-x64/publish -cvf Eto.GifImageView.Demo.Gtk.tar Eto.GifImageView.Demo
 
     - name: Upload Eto.GifImageView.Mac artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Eto.GifImageView.Demo.Mac
         path: Eto.GifImageView.Demo.Mac.tar
 
     - name: Upload Eto.GifImageView.Gtk artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Eto.GifImageView.Demo.Gtk
         path: Eto.GifImageView.Demo.Gtk.tar
@@ -59,13 +59,13 @@ jobs:
         dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained Eto.GifImageView.Demo
     
     - name: Upload TestApp.Wpf artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: Eto.GifImageView.Demo.Wpf
         path: Eto.GifImageView.Demo/bin/Wpf/Debug/net6.0-windows/win-x64/publish/Eto.GifImageView.Demo.exe
 
     - name: Upload nuget artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: nuget
         path: Eto.GifImageView/bin/Release/*.nupkg
